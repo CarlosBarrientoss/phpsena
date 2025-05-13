@@ -66,7 +66,7 @@ class ControladorRegistro{
                     if (window.history.replaceState) {
                         window.history.replaceState(null, null, window.location.href);
                     }
-                    window.location = "index.php?modulo=contenido";
+                    window.location = "contenido";
                 </script>';
             } else {
                 echo '<div class="alert alert-danger">Correo o contraseña incorrectos</div>';
